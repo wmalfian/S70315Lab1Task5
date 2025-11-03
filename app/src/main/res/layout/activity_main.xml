@@ -20,6 +20,7 @@
             android:gravity="center"
             android:layout_marginBottom="24dp" />
 
+        <!-- Student Table -->
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,6 +28,7 @@
             android:elevation="4dp"
             android:stretchColumns="*">
 
+            <!-- Table Header -->
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,6 +73,7 @@
 
             </TableRow>
 
+            <!-- Table Data Rows -->
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -151,8 +154,11 @@
                     android:textColor="@color/green" />
             </TableRow>
 
+            <!-- Add more rows as needed -->
+
         </TableLayout>
 
+        <!-- Grade Summary Table -->
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
